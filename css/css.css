@@ -1,0 +1,27 @@
+h1 {
+  text-align: center;
+  font-size: 50px;
+}
+
+.caja {
+  overflow: hidden;
+}
+
+.contenido {
+  float: left;
+  font-size: 15px;
+  line-height: 20px;
+  padding: 0 20px;
+  text-align: justify;
+  width: 50%;
+}
+
+.imagen {
+  margin-bottom: 20px;
+  float: right;
+  width: 40%;
+}
+
+.arriba {
+  margin-bottom: 300px;
+}
