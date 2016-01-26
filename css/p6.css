@@ -1,0 +1,61 @@
+header {
+   width: 100%;
+   height: 70px;
+   padding: 0px;
+   margin: 0px;
+  }
+
+nav > ul{
+    padding: 0px;
+    margin: 0px;
+    display: table;
+    width: 100%;
+  }
+
+nav > ul li {
+    display: table-cell;
+    border: 3px solid #000;
+  }
+
+nav > ul li a{
+    font-size: 20px;
+    font-weight: bold;
+    color: #000;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    margin: auto;
+  }
+
+.P1 {
+  text-align: center;
+  background: #0B610B;
+}
+
+footer {
+  padding: 0px;
+  margin: 0px;
+  background: #0B610B;
+  text-align: center;
+  font-size: 30px;
+  border-top: 3px solid #000;
+  margin-top: 40px;
+}
+
+.caja {
+  overflow: hidden;
+}
+
+.izquierda {
+  float: left;
+  font-size: 16px;
+  line-height: 20px;
+  padding: 0 50px;
+  text-align: justify;
+  width: 65%;
+}
+
+.anuncio {
+  float: right;
+  width: 20%;
+}

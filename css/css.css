@@ -1,7 +1,10 @@
+body {
+  background-color: #EFFEF0; }
+
 h1 {
-  text-align: center;
-  font-size: 50px;
-}
+text-align: center;
+font-size: 50px;
+color: #084B19;}
 
 .caja {
   overflow: hidden;
@@ -9,9 +12,9 @@ h1 {
 
 .contenido {
   float: left;
-  font-size: 15px;
+  font-size: 16px;
   line-height: 20px;
-  padding: 0 20px;
+  padding: 0 50px;
   text-align: justify;
   width: 50%;
 }
@@ -19,9 +22,29 @@ h1 {
 .imagen {
   margin-bottom: 20px;
   float: right;
-  width: 40%;
+  width: 30%;
 }
 
 .arriba {
-  margin-bottom: 300px;
+  padding-bottom: 25%;
+}
+
+.centroh3 {
+  color: #068125;
+  text-align: center;
+  font-size: 30px;
+}
+
+#propiedades {
+  padding-top: 20px;
+}
+
+footer {
+  padding: 0px;
+  margin: 0px;
+  background: #0B610B;
+  text-align: center;
+  font-size: 30px;
+  border-top: 3px solid #000;
+  margin-top: 40px;
 }

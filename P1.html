@@ -11,11 +11,12 @@
       <div class="arriba">
         <div class="contenido">
           <h3>Estructura HTML</h3>
-            <p>El contenedor del contenido se puede modificar con Width "anchura" y Height "Altura"</p>
+            <p>El texto se escribe en el contenedor de contenido, este contenedor de contenido se puede modificar con width y height.</p>
+            <p>La propiedad width establece el ancho de un elemento y la propiedad height establece la altura.</p>
             <p>Fuera del contenedor del contenido encontramos el padding que este se puede modificar simultaneamente con padding o modificar un lado con padding-left/right/top/bottom</p>
             <p>El border es el borde que separa el padding y el margin se puede modificar igual que el anterior</p>
             <p>El margin es la ultima capa, este se modifica igual que los anteriores</p>
-            <p>Si tenemos dos contenedores uno encima del otro el margin con el mayor valor se sobrepone, por ejemplo si tenemos dos contenedores uno con 10 de margin y otro con 15 tendriamos en total solo un margin de 15 ya que el otro se sobrepasa</p>
+            <p>Si tenemos dos contenedores uno encima del otro el margin con el mayor valor se sobrepone, por ejemplo, uno con 10 de margin y otro con 15 tendriamos en total solo un margin de 15 ya que el otro se sobrepasa</p>
         </div>
 
         <div class="imagen">
@@ -38,16 +39,32 @@
       </div>
     </div>
 
-  <h1>Propiedades CSS</h1>
-    <h3>width</h3>
-    <h3>max-width</h3>
-    <h3>height</h3>
-    <h3>max-height</h3>
-    <h3>display</h3>
-    <h3>overflow</h3>
-    <h3>z-index</h3>
-    <h3>line-height</h3>
-    <h3>box-sizing</h3>
+  <h1 id="propiedades">Propiedades CSS</h1>
+    <h3 class="centroh3">width</h3>
+      <p align=center>Se utiliza para establecer el ancho de un elemento, sus parametros son auto|value|initial|inherit;</p>
+      <p align=center><strong>Nota:</strong> La propiedad width no incluye el relleno, bordes o márgenes; que define la anchura de la zona interior del relleno, borde y margen del elemento</p>
+    <h3 class="centroh3">max-width</h3>
+      <p align=center>Se utiliza para establecer la anchura máxima de un elemento, sus parametros son none|length|initial|inherit;</p>
+      <p align=center><strong>Nota:</strong> El valor de la propiedad max-width anula width.</p>
+    <h3 class="centroh3">height</h3>
+      <p align=center>Se utiliza para establecer la altura de un elemento, sus parametros son auto|length|initial|inherit;</p>
+      <p align=center><strong>Nota:</strong> La propiedad height no incluye el relleno, bordes o márgenes; que define la altura de la zona interior del relleno, borde y margen del elemento</p>
+    <h3 class="centroh3">max-height</h3>
+      <p align=center>Se utiliza para establecer la anchura máxima de un elemento, sus parametros son none|length|initial|inherit;</p>
+      <p align=center><strong>Nota:</strong> El valor de la propiedad max-height anula height.</p>
+    <h3 class="centroh3">display</h3>
+      <p align=center>Se utiliza para especificar el tipo de caja utilizada para un elemento HTML, sus parametros son none|inline|block|flex|initial|inherit;</p>
+    <h3 class="centroh3">overflow</h3>
+      <p align=center>Se utiliza para especificar qué ocurre si el contenido desborda la caja de un elemento, sus parametros son visible|hidden|scroll|auto|initial|inherit;</p>
+    <h3 class="centroh3">z-index</h3>
+      <p align=center>Se utiliza para especificar el orden de apilamiento de un elemento, sus parametros son auto|number|initial|inherit;</p>
+      <p align=center><strong>Nota:</strong> z-index sólo funciona en elementos posicionados (posición: absoluta, position: relative o position: fixed).</p>
+    <h3 class="centroh3">line-height</h3>
+      <p align=center>Se utiliza para especificar la altura de la línea, sus parametros son normal|number|length|initial|inherit;</p>
+      <p align=center><strong>Nota:</strong> Los valores negativos no están permitidos.</p>
+    <h3 class="centroh3">box-sizing</h3>
+      <p align=center>Se utiliza para decirle al navegador lo que las propiedades de tamaño (anchura y altura) deben incluir, sus valores son content-box|border-box|initial|inherit;</p>
 
 </body>
+<footer>Jesús Morales</footer>
 </html>
